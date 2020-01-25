@@ -1,5 +1,4 @@
 (() => {
-
     // create header and ul
     const header = document.createElement('header');
     document.body.prepend(header);
@@ -124,6 +123,7 @@
     };
 
     dayMode();
+
     (changeModeButton = () => {
         const modeButton = document.createElement('button');
         document.body.insertBefore(modeButton, h1);
